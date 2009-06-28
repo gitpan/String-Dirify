@@ -1,0 +1,20 @@
+---
+name: String-Dirify
+version: 1.00
+author:
+  - 'Ron Savage <ron@savage.net.au>'
+abstract: Convert a string into a directory name
+license: artistic
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+build_requires:
+  Test::More: 0
+  Test::Pod: 0
+provides:
+  String::Dirify:
+    file: lib/String/Dirify.pm
+    version: 1.00
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
